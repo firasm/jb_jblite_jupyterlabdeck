@@ -14,7 +14,16 @@ But There are still things that do not work!
 
 ## First attempt: "Native"
 
-Here's what it looks like with just the `jupyterlite` directive:
+Here's what it looks like with just the `jupyterlite` directive.
+
+The code is:
+
+````
+```{jupyterlite} notebook.ipynb
+```
+````
+
+and the result is:
 
 ```{jupyterlite} notebook.ipynb
 ```
@@ -24,10 +33,20 @@ Here's what it looks like with just the `jupyterlite` directive:
 Here's what it looks like if I steal the `iframe` code from the [jupyterlab-deck](https://jupyterlab-deck.readthedocs.io/en/stable/) docs.
 Slightly hacky, but this allows me to have better control over the dimensions of the Slide Deck.
 
+The code is:
+```
 <iframe
-src="./_static/lab/index.html?path=demo.ipynb"
-style="width: 99%; border: solid 1px #999; height: 500px"
-></iframe>
+src="./lite/lab/index.html?path=demo.ipynb"
+style="width: 99%; border: solid 1px #999; height: 500px">
+</iframe>
+```
+
+And the result is:
+
+<iframe
+src="./lite/lab/index.html?path=demo.ipynb"
+style="width: 99%; border: solid 1px #999; height: 500px">
+</iframe>
 
 ## Third attempt: 
 
