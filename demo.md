@@ -1,4 +1,32 @@
 # Demo of a JupyterLab Deck presentation
 
-```{jupyterlite} image_size.ipynb
+Things mostly work!
+But There are still things that do not work!
+
+```{important}
+- [ ] Find a way to set `overrides.json` so the [jupyterlab-deck starts in slide mode](https://jupyterlab-deck.readthedocs.io/en/stable/#enabling-deck-mode-at-startup).
+- [ ] Find a way to configure the environment so I can tell it what python packages to start with
+- [ ] Add some styling elements to the `jupyterlite` directive so the width and the height can be controlled.
+- [ ] Export the `jupyterlab-deck` to a PDF or to HTML.
 ```
+
+## First attempt: "Native"
+
+Here's what it looks like with just the `jupyterlite` directive:
+
+```{jupyterlite} notebook.ipynb
+```
+
+## Second attempt: "Using iFrame"
+
+Here's what it looks like if I steal the `iframe` code from the [jupyterlab-deck](https://jupyterlab-deck.readthedocs.io/en/stable/) docs.
+Slightly hacky, but this allows me to have better control over the dimensions of the Slide Deck.
+
+<iframe
+src="./_static/lab/index.html?path=demo.ipynb"
+style="width: 99%; border: solid 1px #999; height: 500px"
+></iframe>
+
+## Third attempt: 
+
+Coming soon.... will try it when things get set up with JupyterLite.
