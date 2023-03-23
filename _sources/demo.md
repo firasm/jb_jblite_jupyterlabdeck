@@ -4,7 +4,9 @@ Things mostly work!
 But There are still things that do not work!
 
 ```{important}
-- [ ] Find a way to set `overrides.json` so the [jupyterlab-deck starts in slide mode](https://jupyterlab-deck.readthedocs.io/en/stable/#enabling-deck-mode-at-startup).
+- [ ] The new `jupyterlab_myst` feature to have a clickable checklist doesn't seem to work in a markdown file (but it probably works in a JupyterLab notebook) 
+- [ ] Find a way to set `[overrides.json](https://jupyterlab.readthedocs.io/en/stable/user/directories.html#overrides-json)` so the [jupyterlab-deck starts in slide mode](https://jupyterlab-deck.readthedocs.io/en/stable/#enabling-deck-mode-at-startup).
+- [ ] Fix the annoying "JupyterLab Code Formatter" error! (need to disable the extension on JupyterLite)
 - [ ] Find a way to configure the environment so I can tell it what python packages to start with
 - [ ] Add some styling elements to the `jupyterlite` directive so the width and the height can be controlled.
 - [ ] Export the `jupyterlab-deck` to a PDF or to HTML.
