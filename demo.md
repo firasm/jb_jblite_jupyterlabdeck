@@ -36,7 +36,7 @@ Slightly hacky, but this allows me to have better control over the dimensions of
 The code is:
 ```
 <iframe
-src="./lite/lab/index.html?path=demo.ipynb"
+src="./lite/lab/index.html?path=notebook.ipynb"
 style="width: 99%; border: solid 1px #999; height: 500px">
 </iframe>
 ```
@@ -44,7 +44,7 @@ style="width: 99%; border: solid 1px #999; height: 500px">
 And the result is:
 
 <iframe
-src="./lite/lab/index.html?path=demo.ipynb"
+src="./lite/lab/index.html?path=notebook.ipynb"
 style="width: 99%; border: solid 1px #999; height: 500px">
 </iframe>
 
