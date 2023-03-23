@@ -25,7 +25,7 @@ Here's what it looks like if I steal the `iframe` code from the [jupyterlab-deck
 Slightly hacky, but this allows me to have better control over the dimensions of the Slide Deck.
 
 <iframe
-src="./_static/lab/index.html?path=demo.ipynb"
+src="./lite/lab/index.html?path=demo.ipynb"
 style="width: 99%; border: solid 1px #999; height: 500px"
 ></iframe>
 
