@@ -58,7 +58,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.1be1386d5f12e350008b.js",
+        "load": "static/remoteEntry.d9a0f67ce40945c257d4.js",
         "name": "@ryantam626/jupyterlab_code_formatter"
       },
       {
