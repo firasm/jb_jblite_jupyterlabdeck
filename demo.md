@@ -28,12 +28,12 @@ The code is:
 
 and the result is:
 
+
 ```{jupyterlite} notebook.ipynb
 :width: 100%
 :height: 600px
 :prompt: Try it!
 ```
-
 
 
 ## Second attempt: "Using iFrame"
