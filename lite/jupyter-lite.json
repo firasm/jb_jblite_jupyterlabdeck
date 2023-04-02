@@ -342,7 +342,10 @@
         ]
       }
     },
-    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe"
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "@deathbeds/jupyterlab-deck:plugin": {
+        "active": true
+    }
   },
   "jupyter-lite-schema-version": 0
 }
