@@ -20,18 +20,26 @@ The code is:
 
 ````
 ```{jupyterlite} notebook.ipynb
+:width: 100%
+:height: 600px
+:prompt: Try JupyterLite!
 ```
 ````
 
 and the result is:
 
+
 ```{jupyterlite} notebook.ipynb
+:width: 100%
+:height: 600px
+:prompt: Try it!
 ```
+
 
 ## Second attempt: "Using iFrame"
 
 Here's what it looks like if I steal the `iframe` code from the [jupyterlab-deck](https://jupyterlab-deck.readthedocs.io/en/stable/) docs.
-Slightly hacky, but this allows me to have better control over the dimensions of the Slide Deck.
+Slightly hacky.
 
 The code is:
 ```
