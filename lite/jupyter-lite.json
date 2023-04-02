@@ -9,9 +9,46 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.fed96ba8c65972f90efd.js",
+        "name": "@deathbeds/jupyterlab-deck"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.7dafa2779237f8a139cd.js",
+        "name": "@deathbeds/jupyterlab-font-anonymous-pro"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.72ec8004b3300a2556a1.js",
+        "name": "@deathbeds/jupyterlab-font-dejavu-sans-mono"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.b480a1e5ecf432206aaf.js",
+        "name": "@deathbeds/jupyterlab-font-fira-code"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.986f2c58c16721840289.js",
+        "name": "@deathbeds/jupyterlab-fonts"
+      },
+      {
+        "extension": "./extension",
         "liteExtension": true,
         "load": "static/remoteEntry.9769e16943c1366c4972.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.ed7c830e8cf4cf1cf593.js",
+        "name": "jupyterlab-myst",
+        "style": "./style"
       },
       {
         "extension": "./extension",
